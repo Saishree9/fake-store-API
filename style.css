@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    width: 20%;
+    box-shadow: 0 0 4px 3px grey;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.card img
+{
+    width: 80%;
+    padding: 1rem;
+}
+
+.price
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
